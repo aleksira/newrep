@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+    
+{% block title %} Лингвистическое исследование {% endblock %}
+
+{% block content %}
+<main role="main" class="container">
+
+  <div class="starter-template">
+    <h1>Псевдопсихолингвистическое исследование</h1>
+	<h5>Цветовые ассоциации с названиями дисциплин фикла</h5>
+    <p class="lead">Эта анкета направлена на исследование того, какое впечатление оставили после себя основные дисциплины, изучаемые на первом-втором курсах<br> К сожалению, исследование не несет совершенно никакой смысловой нагрузки, но я ничего не могу с этим поделать</p>
+  </div>
+
+  <div class="container">
+      <a class="btn btn-outline-dark btn-lg btn-block" href="{{ q }}" role="button">Начать исследование</a>
+  </div>
+  <a href="https://vk.com/fikl_happens?w=wall-186388379_1204&z=photo-186388379_457239504%2Falbum-186388379_00%2Frev">
+    <img src="static/book.png" hspace="400" vspace="50" width="25%" height="25%">
+  </a>>
+</main>
+{% endblock %}

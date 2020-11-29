@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %} Анкета {% endblock %}
+
+{% block content %}
+
+<h2>Псевдопсихолингвистический опрос</h2>
+<form class="container" action="/process">
+
+	<div class="col-md-4">Введение в лингвистику:</div>
+	<input type="radio" name="color" value="1"> <span style="background-color:#efd334;">Грушевый</span><br>
+	<input type="radio" name="color" value="2"> <span style="background-color:#5d9b9b;">Пастельно-синий</span><br>
+	<input type="radio" name="color" value="3"> <span style="background-color:#d36e70;">Розовый антик</span><br><br>
+
+	<div class="col-md-4">Фонетика:</div>
+	<input type="radio" name="color" value="1"> <span style="background-color:#87cefa;">Светло-голубой</span><br>
+	<input type="radio" name="color" value="2"> <span style="background-color:#fc6c85;">Дикий арбуз Крайола</span><br>
+	<input type="radio" name="color" value="3"> <span style="background-color:#f4a900;">Дынно-желтый</span><br><br>
+
+	<div class="col-md-4">Морфология:</div>
+	<input type="radio" name="color" value="1"> <span style="background-color:#ea7500;">Темный мандарин</span><br>
+	<input type="radio" name="color" value="2"> <span style="background-color:#1ca9c9;">Тихоокеанский синий</span><br>
+	<input type="radio" name="color" value="3"> <span style="background-color:#ca3767;">Джазовый джем</span><br><br>
+
+	<div class="col-md-4">Семантика:</div>
+	<input type="radio" name="color" value="1"> <span style="background-color:#6495ed;">Васильковый</span><br>
+	<input type="radio" name="color" value="2"> <span style="background-color:#eb5284;">Глубокий пурпурно-розовый</span><br>
+	<input type="radio" name="color" value="3"> <span style="background-color:#bdda57;">Июньский бутон</span><br><br>
+
+	<div class="col-md-4">Синтаксис:</div>
+	<input type="radio" name="color" value="1"> <span style="background-color:#ea8df7;">Фиалковый</span><br>
+	<input type="radio" name="color" value="2"> <span style="background-color:#ff6e4a;">Скандальный оранжевый</span><br>
+	<input type="radio" name="color" value="3"> <span style="background-color:#50c878;">Изумруд</span><br><br>
+
+	<input class="submit" type="submit" name="submit" value="Отправить">
+</form>
+
+{% endblock %}
